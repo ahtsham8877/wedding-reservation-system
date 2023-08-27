@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fyp.e_laboratory">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+     The following two permissions are not required to use
+     Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/weddinglogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/weddinglogo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name=".OtherOptionsActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DashboarduserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PayBillActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserPanel.BookHotelAgree"
+            android:exported="false" />
+        <activity
+            android:name=".UserPanel.ViewHotels"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_panel.AddHotels"
+            android:exported="false" />
+        <activity
+            android:name=".Googlemap.MapConsole"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity
+            android:name=".Admin_panel.ViewMedinesAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".UserPanel.ViewMedicine"
+            android:exported="false" />
+        <activity
+            android:name=".UserPanel.ViewBookingHistory"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_panel.ViewAllReports"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_panel.ViewApointMents"
+            android:exported="false" />
+        <activity
+            android:name=".UserPanel.ApointMentBook"
+            android:exported="false" />
+        <activity
+            android:name=".UserPanel.Instruction"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_panel.Admin_Home_Page"
+            android:exported="false" />
+        <activity
+            android:name=".Authentication.SignUpPage"
+            android:exported="false" />
+        <activity
+            android:name=".Authentication.LoginPage"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

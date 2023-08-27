@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".UserPanel.ApointMentBook">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/images"
+        android:layout_marginTop="20dp"/>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:padding="30dp"
+     android:orientation="vertical">
+     <EditText
+         android:id="@+id/ap_name"
+         style="@style/edittext"
+         android:hint="Full Name"
+         android:inputType="textEmailAddress"/>
+     <EditText
+         android:id="@+id/ap_email"
+         style="@style/edittext"
+         android:layout_marginTop="10dp"
+         android:hint="Email"
+         android:inputType="textEmailAddress"/>
+     <Spinner
+         android:id="@+id/spinner"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:padding="15dp"
+         style="@style/Spinner"
+         android:prompt = "@string/city" />
+     <EditText
+         android:id="@+id/ap_phone"
+         style="@style/edittext"
+         android:layout_marginTop="10dp"
+         android:hint="+92"
+         android:inputType="text"/>
+
+     <EditText
+         android:id="@+id/ap_address"
+         style="@style/edittext"
+         android:layout_marginTop="10dp"
+         android:hint="Address"
+         android:inputType="textEmailAddress"/>
+     <EditText
+         android:id="@+id/cardnumber"
+         style="@style/edittext"
+         android:layout_marginTop="10dp"
+         android:hint="Card Number"
+         android:inputType="textEmailAddress"/>
+     <EditText
+         android:id="@+id/billamount"
+         style="@style/edittext"
+         android:layout_marginTop="10dp"
+         android:hint="Bill amount"
+         android:inputType="textEmailAddress"/>
+     <Button
+         android:id="@+id/genrateqr"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:background="@drawable/rect_btn"
+         android:imeOptions="actionNext"
+         android:text="GenrateQr"
+         android:paddingStart="30dp"
+         android:paddingEnd="30dp"
+         android:textColor="@color/white"
+         android:textStyle="bold" />
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="100dp"
+         android:src="@drawable/paid"
+         android:id="@+id/showqr"
+         android:paddingTop="20dp"/>
+     <TimePicker
+         android:id="@+id/timePicker1"
+         android:layout_marginTop="10dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="20dp"
+         android:layout_gravity="center"
+         android:background="@drawable/rect_btn"
+         android:paddingStart="30dp"
+         android:paddingEnd="30dp"
+         android:textColor="@color/white"
+         android:text="Change Time" />
+     <ProgressBar
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/ap_pbbar"
+         android:visibility="gone"
+         android:layout_margin="10dp"/>
+     <Button
+         android:id="@+id/ap_submit"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:background="@drawable/rect_btn"
+         android:text="Submit"
+         android:textColor="@android:color/white"
+         android:textSize="13dp"
+         android:textStyle="bold" />
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Wedding Reservation</string>
+    <string name="city">Select City</string>
+    <string name="map_key">AIzaSyBK3d7TYkaSkDIwj_sS1zntBtEmmgECZGk</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_open">open</string>
+    <string name="nav_close">cLose</string>
+    <string name="hotel_menu_desc">We Provide you with Naan, Roti, Tika, Palao, Baryani and many other Cuisines or any custom order you may wish to have.</string>
+    <string name="nikah">We provide the service of Attestation of Marriage Certificates from the concerned departments.</string>
+    <string name="dj_desc">We will be responsible for connecting with listeners, arranging playlists, presenting commercials, performing interviews, taking music requests, and generating interest in the show.</string>
+    <string name="qawwali_desc">We will provide an energetic musical performance of Sufi Muslim poetry that aims to lead listeners to a state of religious ecstasy—to a spiritual union with Allah (God).</string>
+    <string name="tailor_desc">We are responsible for constructing, altering, repairing, or modifying garments for customers based on their specifications, needs, and preferences.</string>
+    <string name="salon_desc">We are responsible for identifying clients needs and helping them find clothing that suits their body types. Creating complete looks from head to toe to match clients style. Offering personalized styling tips.</string>
+    <string name="photographer_desc">We are responsible for capturing images or videos for clients in a studio, on location, or at an event.</string>
+</resources>
